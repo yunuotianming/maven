@@ -28,6 +28,14 @@ public class MyServlet extends HttpServlet {
         req.getRequestDispatcher("/hello.jsp").forward(req, resp);
     }
 
+/**
+<!-- 注意idea默认没有web.xml的声明头,需要自己添加 -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+ */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doGet(req, resp);

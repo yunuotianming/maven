@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mysql" />
         <module name="servlet" />
+        <module name="ssm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

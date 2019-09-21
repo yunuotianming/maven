@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/mysql" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
