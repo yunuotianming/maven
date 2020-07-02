@@ -23,7 +23,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.6</version>
+            <version>8.0.16</version>
             <!-- 数据库驱动包基本都需要设置为runtime,只需要在测试和打包时使用 -->
             <scope>runtime</scope>
         </dependency>
